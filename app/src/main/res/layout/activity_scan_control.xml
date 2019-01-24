@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".scanControl"
+    android:background="#fff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="Scan QR-Code"
+            app:titleTextColor="@color/orangeMuda"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="#fff"
+            app:elevation="4dp"
+            app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Dark" >
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <RelativeLayout
+
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/crvScanOn"
+            app:cardCornerRadius="5dp"
+            app:elevation="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp">
+            <RelativeLayout
+
+                android:background="#fff"
+                android:layout_width="320dp"
+                android:layout_height="110dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/qr"/>
+
+                <TextView
+                    android:textColor="@color/orangeMuda"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Scan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/crvScanOff"
+            app:elevation="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+            <RelativeLayout
+
+                android:background="#fff"
+                android:layout_width="330dp"
+                android:layout_height="110dp">
+
+
+                <ImageView
+                    android:id="@+id/btnDaftar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/of"/>
+
+                <TextView
+                    android:textColor="@color/orangeMuda"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/orangeMuda"
+        android:background="@drawable/border_button"
+        android:id="@+id/dis_btn"
+        android:layout_margin="30dp"
+        android:text="Disconnect"
+         />
+
+
+
+</RelativeLayout>

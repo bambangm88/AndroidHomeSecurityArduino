@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AndroidHomeSecurityArduino</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_led_control">ledControl</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Serial Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Masukan Nama Lengkap</string>
+    <string name="error_message_email">Masukan Valid Serial Number</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Masukan Password</string>
+    <string name="success_message">Registration Sukses</string>
+    <string name="text_not_member">Register Disini</string>
+    <string name="text_already_member">Login Disini</string>
+    <string name="error_email_exists">Serial Number Sudah Ada</string>
+    <string name="error_password_match">Password Tidak Sama</string>
+    <string name="error_valid_email_password">Serial Number atau Password Salah</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+
+</resources>
